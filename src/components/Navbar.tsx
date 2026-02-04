@@ -26,7 +26,7 @@ export default function Navbar(){
 
   return (
     <>
-    <header className="relative py-4">
+    <header className="sticky w-full top-0 left-0 z-50 py-4 backdrop-blur-[0.7px]">
       <div className="nav-container container px-6 mx-auto">
         <nav className="flex justify-between">
           <div className="logo flex items-center w-1/3 uppercase"><a>Larrystone</a></div>

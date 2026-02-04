@@ -3,7 +3,7 @@
 export default function Hero() {
   return (
     <section id="#home" className="container mx-auto px-6 h-[90vh] hero">
-      <div className="hero-container flex flex-col items-center justify-center md:items-start md:justify-start h-full">
+      <div className="hero-container flex flex-col items-center justify-center h-full">
         <h1 className="hero self-start text-[clamp(3.5rem,10vw,8rem)] tracking-none leading-[0.9] mb-[40px]">Crafting digital<br />experiences with<br /><span className="quote font-thin">code & design.</span>
         </h1>
         <p className="subtitle max-w-[500px] self-start text-[16px] mb-5">Frontend developer specializing in React, TypeScript, and modern web technologies. Building performant, accessible interfaces that users love.
