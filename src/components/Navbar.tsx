@@ -29,7 +29,7 @@ export default function Navbar(){
     <header className="sticky w-full top-0 left-0 z-50 py-4 backdrop-blur-[0.7px]">
       <div className="nav-container container px-6 mx-auto">
         <nav className="flex justify-between">
-          <div className="logo flex items-center w-1/3 uppercase"><a>Larrystone</a></div>
+          <div className="logo flex items-center w-1/3 uppercase"><a id="#home">Larrystone</a></div>
           <div className={`mobile-design flex flex-col md:flex-row items-center justify-center md:justify-between gap-6 md:gap-0 md:w-2/3 -translate-y-full md:translate-y-0 absolute md:static w-full h-screen md:h-fit left-0 top-0 md:bg-inherit transition-transform ease-in-out duration-300 ${navOpen ? "translate-y-0" : ""} ${theme === "dark" ? "bg-black text-white" : "bg-white text-black"}`}>
             <button className="absolute top-9 right-8 md:hidden rounded-full border border-gray-700 flex justify-center items-center p-1 h-[36px] w-[36px] hover:border-[#00CC75] hover:rotate-180 transition-translate ease-in-out duration-300 cursor-pointer" onClick={()=>setOpenNav(false)}><X size={36}/></button>
             <ul className="nav-list flex flex-col md:flex-row items-center justify-center gap-6 w-1/2">
