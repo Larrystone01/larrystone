@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from "lucide-react"
+import { ExternalLink } from "lucide-react"
 import { projects } from "../lib/projects"
 
 export default function Work (){
