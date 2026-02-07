@@ -1,6 +1,7 @@
 @import "tailwindcss";
-/* @import "tailwindcss/preflight"; */
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap'); */
+
 
 
 :root {
@@ -104,6 +105,10 @@ body.light .project-name {
   color: var(--text);
 }
 
+body.light .contact-container a:hover {
+  color: var(--light-modal);
+}
+
 /* body.light .project-cont:first-child .customized-bg {
   background-color: #f5f5f5 !important;
 }  */
@@ -145,6 +150,13 @@ body.light .project-name {
   letter-spacing: 0.1em;
 }
 
+body.dark .view-project {
+  color: var(--bg);
+}
+body.light .view-project {
+  color: var(--text);
+}
+
 .status {
   font-family: var(--mono);
   font-size: 0.5rem;
@@ -173,6 +185,89 @@ body.light .project-name {
 .work-link:hover {
   background: var(--accent);
   color:#0a0a0a;
+}
+
+body.light .work-link {
+  border-color: #888;
+}
+
+body.light .theme-button {
+  color:black;
+  border-color:#e2dddd;
+}
+body.dark .theme-button {
+  color:white;
+}
+
+body.light .skill-card {
+  background: rgba(0,0,0,0.01);
+}
+
+body.light .skill-section {
+  background: #ffffff;
+}
+body.light .about-section {
+  background: #f5f5f5;
+}
+
+
+.about-write-up p {
+  line-height: 1.5;
+  color: #888;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.skill-name {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.025em;
+}
+
+.skill span{
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  border: 1px solid #2a2a2a;
+  background: rgba(255,255,255,0.02);
+  padding: 5px 10px;
+}
+
+.skill {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+.line{
+  background: #00CC75;
+  height: 100px;
+  width: 2px;
+}
+
+.stats span {
+  font-family: var(--mono);
+  display: block;
+  text-transform: uppercase;
+  color:#888;
+  letter-spacing: 0.1em;
+  font-size: 0.85rem;
+}
+
+.social-links a {
+  font-family: var(--mono);
+  font-size: 0.9rem;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: var(--accent);
+}
+
+.footer-container > p {
+  font-family: var(--mono);
 }
 
 
