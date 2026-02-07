@@ -16,7 +16,7 @@ export default function Work (){
               viewport={{ once: true }}
               variants={{
                 hidden:{opacity: 0, y:"50%"},
-                visible:{opacity: 1, y:"0%", transition: { duration:1.8, ease:"easeInOut" } }
+                visible:{opacity: 1, y:"0%", transition: { duration:1.8, ease:"linear" } }
               }}
               >
                 <div className="customized-bg absolute inset-0 bg-[linear-gradient(135deg,#1a1a1a_0%,#0a0a0a_100%)] transition-transform duration-500 ease-in" style={{background:project.backgroundColor}}></div>
