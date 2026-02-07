@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section id="home" className="h-[90vsh] hero overflow-hidden">
       <div className="container mx-auto px-6">
-        <motion.div className="hero-container flex flex-col items-center justify-center h-full"
+        <motion.div className="hero-container flex flex-col items-center justify-center md:justify-start h-screen"
         initial={{ opacity:0, y:60 }}
         animate={{ opacity:1, y:0 }}
         transition={{ duration:0.8, ease:"easeIn" }}

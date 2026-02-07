@@ -34,7 +34,7 @@ function SkillCard({path, name}:SkillCardProps){
     viewport={{ once: true }}
     variants={{
       hidden:{opacity: 0, y:50},
-      visible:{opacity: 1, y:0, transition: { duration:2, ease:"easeIn" } }
+      visible:{opacity: 1, y:0, transition: { duration:0.7, ease:"easeIn" } }
     }}
     >
       <svg

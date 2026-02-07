@@ -40,13 +40,13 @@ export const projects = [
   {
     id: 4,
     name: "Larrystone Portfolio",
-    description: "",
+    description: "Larrystone is a personal portfolio website showcasing creative projects and technical work with a focus on modern web development and interactive design. The site features clean, responsive layouts that highlight featured works, project details, and links to live demos and code repositories, providing visitors with an engaging overview of professional skills and achievements.",
     stacks: ["TypeScript", "TailwindCSS", "CSS"],
     img:"/images/larrystone.png",
     imgMobile:"/images/larrystone-mobile.webp",
     backgroundColor: "linear-gradient(135deg, #2a1a1a 0%, #0a0a0a 100%)",
     liveLink:"https://sammaze-media.vercel.app",
-    githubUrl: "https://github.com/Larrystone01/Sammaze-media",
+    githubUrl: "https://github.com/Larrystone01/larrystone",
     status:"completed"
   },
   {
@@ -58,7 +58,7 @@ export const projects = [
     imgMobile:"/images/dessert-cart-mobile.webp",
     backgroundColor: "",
     liveLink:"https://dessertcart.vercel.app",
-    githubUrl: "https://github.com/Larrystone01/Sammaze-media",
+    githubUrl: "https://github.com/Larrystone01/dessertcart",
     status:"completed"
   },
   {
@@ -70,7 +70,7 @@ export const projects = [
     imgMobile:"/images/rock-paper-mobile.webp",
     backgroundColor: "linear-gradient(135deg, #1a1a2e 0%, #0a0a0a 100%)",
     liveLink:"https://rock-paper-scissors-pi-ruby.vercel.app/",
-    githubUrl: "https://github.com/Larrystone01/Sammaze-media",
+    githubUrl: "https://github.com/Larrystone01/Rock-paper-scissors",
     status:"completed"
   },
   {
