@@ -1,6 +1,4 @@
-
-
-export default function Footer(){
+export default function Footer() {
   return (
     <footer className=" border-t border-[#888] py-10">
       <div className="container px-6 mx-auto">
@@ -10,5 +8,5 @@ export default function Footer(){
         </div>
       </div>
     </footer>
-  )
+  );
 }
