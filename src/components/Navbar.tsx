@@ -100,7 +100,7 @@ export default function Navbar() {
               <div className="theme flex flex-col md:flex-row items-center gap-4">
                 <a
                   className={`bg-[#00CC75] py-[8px] px-[16px] cursor-pointer hover:shadow-[0_0_26px_3px] shadow-[#00CC75]/40 hover:-translate-y-0.5 transition-all ease-in-out duration-100 active hire-me ${theme === "dark" ? "text-black" : "text-white"}`}
-                  href="files/OLANREWAJU FEMI AKINWALIRE(Frontend Developer).pdf"
+                  href="files/OLANREWAJU FEMI AKINWALIRE(Frontend Developer1).pdf"
                   download
                 >
                   Download CV
